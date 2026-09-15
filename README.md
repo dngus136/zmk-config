@@ -9,6 +9,9 @@ Provides RShift on the Default layer R4 row.<br />
 
 The thumb, number, symbol, and function layers follow the Miryoku layout almost exactly.<br />
 
+The navigation layer and number layer perform the following actions when used with the Shift key.
+Tap: &kp | hold: &mo layer | shift + hold: &to layer. Pressing the Home key(F+J) in combination while in the &to layer state returns you to the base layer. This feature is useful when pressing navigation keys or number pad keys with one hand. This is taken from Urob's SMART_NUM Behaviors.<br />
+
 The number layer provides the four basic arithmetic operations as combo keys, just like a full-size keyboard.<br />
 
 There are symbol layers, but frequently used symbols are provided as combos. Function keys are provided on the opposite side of the symbol layers to reduce the layer key, and modifier keys are provided for shortcuts.<br />
