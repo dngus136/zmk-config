@@ -18,7 +18,7 @@ The number layer provides the four basic arithmetic operations as combo keys, ju
 
 The navigation layer replaces the action of tapping the arrow keys multiple times with a hold. On the opposite side of the navigation keys are frequently used shortcuts like Copy, Task Switcher, etc.<br />
 
-This keymap provides modifier key combination shortcuts for each layer. (e.g., SHIFT+ →, CTRL+1, ALT+F4, CTRL+ALT+DEL) on each layer.<br />
+This keymap provides modifier key combination shortcuts. (e.g., SHIFT+ →, CTRL+1, ALT+F4, CTRL+ALT+DEL) on each layer.<br />
 
 ## Modules
 
