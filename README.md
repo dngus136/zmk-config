@@ -4,19 +4,21 @@ This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br /
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 
-Uses Urob's Timeless-Home-row-mods.<br />
-Provides RShift on the Default layer R4 row.<br />
-
 The thumb, number, symbol, and function layers follow the Miryoku layout almost exactly.<br />
+It provides the RShift function on the R4 row of the base layer for language switching.
+<br />
 
+Uses Urob's Timeless-Home-row-mods.<br />
 The navigation layer and number layer perform the following actions when used with the Shift key.
 Tap: &kp | hold: &mo layer | shift + hold: &to layer. Pressing the Home key(F+J) in combination while in the &to layer state returns you to the base layer. This feature is useful when pressing navigation keys or number pad keys with one hand. This is taken from Urob's SMART_NUM Behaviors.<br />
 
-The number layer provides the four basic arithmetic operations as combo keys, just like a full-size keyboard.<br />
-
 There are symbol layers, but frequently used symbols are provided as combos. Function keys are provided on the opposite side of the symbol layers to reduce the layer key, and modifier keys are provided for shortcuts.<br />
 
+The number layer provides the four basic arithmetic operations as combo keys, just like a full-size keyboard.<br />
+
 The navigation layer replaces the action of tapping the arrow keys multiple times with a hold. On the opposite side of the navigation keys are frequently used shortcuts like Copy, Task Switcher, etc.<br />
+
+This keymap provides modifier key combination shortcuts for each layer. (e.g., SHIFT+ →, CTRL+1, ALT+F4, CTRL+ALT+DEL) on each layer.<br />
 
 ## Modules
 
