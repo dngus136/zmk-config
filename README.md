@@ -12,7 +12,7 @@ navigation, screen lock, and input-source switching. The profile is selected by
 
 To build with GitHub Actions, push this repository to a GitHub fork, enable
 Actions if GitHub disabled them for the fork, and run the workflow from the
-Actions tab. Download the `sweep_central_left` and `sweep_peripheral_right`
+Actions tab. Download the `sweep_peripheral_left` and `sweep_peripheral_right`
 artifacts from the completed run.
 
 ### Flashing a Bluetooth Sweep
@@ -21,7 +21,7 @@ artifacts from the completed run.
 2. Flash the `settings_reset` Nice!Nano UF2 to each half once. Double-tap the
    controller's reset button to expose its USB drive, copy the UF2 file, and
    wait for the automatic reboot.
-3. Flash the `sweep_central_left` UF2 to the left half and the
+3. Flash the `sweep_peripheral_left` UF2 to the left half and the
    `sweep_peripheral_right` UF2 to the right half using the same double-reset
    and copy process.
 4. After both halves reboot, pair the keyboard in macOS under **System
