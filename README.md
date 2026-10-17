@@ -40,6 +40,10 @@ Nice!Nano `settings_reset` UF2 to the dongle, then flash the new
 flashing the dongle. Then flash the keyboard halves, power everything on, and
 pair the dongle as the host's USB keyboard.
 
+When using the dongle, the dongle is the only central. The left and right Sweep
+targets are built as peripherals with `CONFIG_ZMK_SPLIT_ROLE_CENTRAL=n` so they
+can connect to the dongle instead of trying to act as a host central.
+
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 
