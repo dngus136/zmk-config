@@ -1,5 +1,5 @@
 // shortcut select os
-#ifdef I_PAD
+#if defined(MAC_OS) || defined(I_PAD)
 // homerow mods
   #define M_IDX LCTRL
   #define M_MDL LSHFT

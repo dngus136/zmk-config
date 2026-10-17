@@ -1,6 +1,35 @@
 # zmk-config
 
 This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br />
+
+## macOS Sweep build
+
+The Sweep keymap is configured for macOS. The physical 34-key layout and all
+layers stay the same; navigation shortcuts use Command/Option equivalents for
+copy, paste, undo, app and tab switching, word deletion, line/document
+navigation, screen lock, and input-source switching. The profile is selected by
+`#define MAC_OS` at the top of `config/sweep.keymap`.
+
+To build with GitHub Actions, push this repository to a GitHub fork, enable
+Actions if GitHub disabled them for the fork, and run the workflow from the
+Actions tab. Download the `sweep_central_left` and `sweep_peripheral_right`
+artifacts from the completed run.
+
+### Flashing a Bluetooth Sweep
+
+1. Keep the two halves separated while flashing.
+2. Flash the `settings_reset` Nice!Nano UF2 to each half once. Double-tap the
+   controller's reset button to expose its USB drive, copy the UF2 file, and
+   wait for the automatic reboot.
+3. Flash the `sweep_central_left` UF2 to the left half and the
+   `sweep_peripheral_right` UF2 to the right half using the same double-reset
+   and copy process.
+4. After both halves reboot, pair the keyboard in macOS under **System
+   Settings → Bluetooth**. The left half is the central half and should be the
+   half connected to USB during initial pairing.
+
+Never flash a Totem/XIAO artifact to a Sweep/Nice!Nano controller.
+
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 

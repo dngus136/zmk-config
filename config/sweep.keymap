@@ -1,3 +1,5 @@
-// #define I_PAD
+// Host OS shortcut profile. This keeps the physical layout and layers intact
+// while selecting Command/Option shortcuts for macOS.
+#define MAC_OS
 #include "keypos_def/keypos_34keys.h"
 #include "includes/3x5.dtsi"
