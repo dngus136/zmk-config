@@ -44,6 +44,12 @@ When using the dongle, the dongle is the only central. The left and right Sweep
 targets are built as peripherals with `CONFIG_ZMK_SPLIT_ROLE_CENTRAL=n` so they
 can connect to the dongle instead of trying to act as a host central.
 
+The dongle build also includes ZMK Studio's USB RPC endpoint and disables Studio
+locking. Connect the dongle by USB and open [zmk.studio](https://zmk.studio/) in
+Chrome or Edge to view and edit the graphical keymap. In dongle mode, use the
+dongle for Studio; the two keyboard halves are peripherals and do not provide
+the host's USB Studio endpoint.
+
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 
