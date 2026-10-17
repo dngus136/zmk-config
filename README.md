@@ -30,6 +30,16 @@ artifacts from the completed run.
 
 Never flash a Totem/XIAO artifact to a Sweep/Nice!Nano controller.
 
+### Flashing a Sweep dongle
+
+The dongle target is enabled in `build.yaml` as `sweep_dongle`. After pushing
+that change, download the additional `sweep_dongle` UF2 from the GitHub Actions
+artifact. If the dongle was paired to the previous firmware, first flash the
+Nice!Nano `settings_reset` UF2 to the dongle, then flash the new
+`sweep_dongle` UF2. Keep the keyboard halves powered off while resetting and
+flashing the dongle. Then flash the keyboard halves, power everything on, and
+pair the dongle as the host's USB keyboard.
+
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 

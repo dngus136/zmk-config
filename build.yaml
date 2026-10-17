@@ -3,11 +3,11 @@
 include:
 
  # sweep
-#  - board: nice_nano@2
-#    shield: sweep_dongle
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: sweep_dongle
+  - board: nice_nano@2
+    shield: sweep_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: sweep_dongle
   - board: nice_nano@2
     shield: sweep_left
     snippet: studio-rpc-usb-uart
