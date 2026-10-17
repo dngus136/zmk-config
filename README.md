@@ -50,6 +50,13 @@ Chrome or Edge to view and edit the graphical keymap. In dongle mode, use the
 dongle for Studio; the two keyboard halves are peripherals and do not provide
 the host's USB Studio endpoint.
 
+The dongle build also restores the optional `zmk-dongle-display` screen for a
+128x64 I2C OLED: it shows layer/output/battery/modifier data, WPM, and the
+animated Bongo Cat widget. The display is wired through the Nice!Nano
+`pro_micro_i2c` bus at address `0x3c` and uses the SH1106 128x64 controller
+settings from the original configuration. The NUM-layer mouse movement speed is
+set to twice the previous default and reaches acceleration sooner.
+
 Sweep Bluethooth(Nice!Nano) or Dongle(Nice!Naon), Studio available. <br />
 Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.<br /><br />
 

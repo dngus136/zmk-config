@@ -1,6 +1,6 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1250  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // 2x faster pointer movement
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 30    // 10
 
 #include <dt-bindings/zmk/pointing.h>
@@ -8,7 +8,7 @@
 
 &mmv {
     acceleration-exponent = <1>;      // 1 가속 0 가속없음
-    time-to-max-speed-ms = <500>;     // 300 움직이는 최대속도
+    time-to-max-speed-ms = <250>;     // reach maximum speed sooner
     trigger-period-ms = <8>;          // 16 줄이면 랙이 줄어드는 느낌, 카운팅 속도
 };
 
