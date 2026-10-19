@@ -92,7 +92,7 @@ NAV_SPC  SYS_TAB     |     &lt SYM RET  NUM_BSPC
 
 | 행 | 왼손: 바깥 → 안쪽 | 오른손: 안쪽 → 바깥 |
 |---|---|---|
-| 상단 | Reset / Bootloader · — · — · Lock ⌃⌘Q · Soft off | Soft off · KP7 · KP8 · KP9 · Reset / Bootloader |
+| 상단 | Reset / Bootloader · Windows 전환 · — · Lock ⌃⌘Q · Soft off | Soft off · KP7 · KP8 · KP9 · Reset / Bootloader |
 | 중단 | Cmd · Opt · Shift · Ctrl · — | — · KP4 · KP5 · KP6 · — |
 | 하단 | BT clear ALL · BT profile 0 · BT profile 1 · BT profile 2 · BT clear selected | — · KP1 · KP2 · KP3 · — |
 | 엄지 | ▽ · ▽ | — · KP0 |
@@ -100,7 +100,7 @@ NAV_SPC  SYS_TAB     |     &lt SYM RET  NUM_BSPC
 <details><summary>실제 ZMK 바인딩 34개</summary>
 
 ```text
-&rst_boot 0 0  &none  &none  &kp LOCK  &soft_off     |     &soft_off  &kp KP_N7  &kp KP_N8  &kp KP_N9  &rst_boot 0 0
+&rst_boot 0 0  &to WIN_DEF  &none  &kp LOCK  &soft_off     |     &soft_off  &kp KP_N7  &kp KP_N8  &kp KP_N9  &rst_boot 0 0
 &kp M_PNK  &kp M_RNG  &kp M_MDL  &kp M_IDX  &none     |     &none  &kp KP_N4  &kp KP_N5  &kp KP_N6  &none
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR     |     &none  &kp KP_N1  &kp KP_N2  &kp KP_N3  &none
 &trans  &trans     |     &none  &kp KP_N0

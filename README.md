@@ -4,6 +4,12 @@ This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br /
 
 ## macOS Sweep build
 
+Sweep also has a runtime Mac/Windows profile switch: hold the existing SYS/Tab
+thumb and tap physical W. It starts in Mac mode after reboot. The layer names
+show `MAC` or `WIN`; each profile keeps the same five-layer, 34-key layout.
+See [the runtime profile review](docs/dual-os-review.md) for shortcut differences,
+generation checks, and flashing details.
+
 Hold the base-layer dot key to send Control+Option+Space (next input source on
 macOS); tap it for a dot. All key positions and layers are unchanged.
 See [the complete 34-key macOS mapping](docs/macos-keymap.md) for all five layers

@@ -1,5 +1,5 @@
-// Host OS shortcut profile. This keeps the physical layout and layers intact
-// while selecting Command/Option shortcuts for macOS.
+// Boot into macOS; SYS + physical W switches between macOS and Windows.
+// Both profiles preserve the 34-key layout and the five-layer structure.
 #define MAC_OS
 #include "keypos_def/keypos_34keys.h"
-#include "includes/3x5.dtsi"
+#include "includes/sweep-dual-os.dtsi"
