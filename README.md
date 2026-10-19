@@ -4,6 +4,11 @@ This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br /
 
 ## macOS Sweep build
 
+Hold the base-layer dot key to send Control+Option+Space (next input source on
+macOS); tap it for a dot. All key positions and layers are unchanged.
+See [the complete 34-key macOS mapping](docs/macos-keymap.md) for all five layers
+and combos.
+
 The Sweep keymap is configured for macOS. The physical 34-key layout and all
 layers stay the same; navigation shortcuts use Command/Option equivalents for
 copy, paste, undo, app and tab switching, word deletion, line/document

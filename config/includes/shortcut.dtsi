@@ -38,7 +38,12 @@
   #define EN_DOC LG(DOWN)
 // System
   #define LOCK LC(LG(Q))
-  #define LANG LC(SPC)
+  // The existing dot hold-tap sends the macOS next-input-source shortcut.
+  #ifdef MAC_OS
+    #define LANG LC(LA(SPC))
+  #else
+    #define LANG LC(SPC)
+  #endif
 /*
   #define PGUP LA(UP)
   #define PGDN LA(DOWN)
